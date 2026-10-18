@@ -1,4 +1,4 @@
-# ios-device-identifiers
+  # ios-device-identifiers
 
 A json file for mapping iOS device identifiers to some human readable equivalent.
 
@@ -31,14 +31,23 @@ e.g
     curl https://gist.github.com/adamawolf/3048717/raw/19b4cc0627ff669f1c4589324b9cb45e4948ec01/Apple_mobile_device_types.txt > ios-device-identifiers.txt 
     bin/convert.sh  $(pwd)/ios-device-identifiers.txt
 
-and then review
+and then review (please only commit additions - don't change the names of existing entries as these have been stable for a while)
 
 ## Acknowledgements:
 
-Many thanks to PRs from:
+Many thanks to PRs or reviews from:
 
 * [@pschmidtboeing](https://github.com/pschmidtboeing)
 * [@samius](https://github.com/samius)
+* [@stefandevo](https://github.com/stefandevo)
+* [@kyle-seongwoo-jun](https://github.com/kyle-seongwoo-jun)
+* [@bobatsar](https://github.com/bobatsar)
+* [@kyle-seongwoo-jun](https://github.com/kyle-seongwoo-jun)
+* [@MrOlolo](https://github.com/MrOlolo)
+* [@colincameron](https://github.com/colincameron)
+* [@tim-field](https://github.com/tim-field)
+* [@filipejtdias](https://github.com/filipejtdias)
+* [@indygriffiths](https://github.com/indygriffiths)
 
 Many thanks to the various gist-maintainers:
 
